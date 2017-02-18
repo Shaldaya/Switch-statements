@@ -1,0 +1,95 @@
+using UnityEngine;
+using System.Collections;
+
+public class switchstatements : MonoBehaviour {
+	
+	void Start () {
+
+		// switch example, making small talk
+		int response = 3;
+		switch (response) {
+		case 1:
+			Debug.Log ("I'm doing well. How are you?");
+			break;
+		case 2:
+			Debug.Log ("Thanks, you too!");
+			break;
+		case 3:
+			Debug.Log ("My day has been fantastic! How has yours been?");
+			break;
+		case 4:
+			Debug.Log ("Wow, your life is so interesting!");
+			break;
+		}
+
+		//Displaying what shoes you picked
+		int shoes = 2;
+		switch (shoes) {
+		case 1:
+			Debug.Log ("You picked the blue shoes");
+			break;
+		case 2:
+			Debug.Log ("You picked the green shoes");
+			break;
+		case 3:
+			Debug.Log ("You picked the red shoes");
+			break;
+		case 4:
+			Debug.Log ("You picked the black shoes");
+			break;
+		}
+				
+		// Displaying prices at a clothing store
+		int price = 1;
+		switch (price) {
+		case 1:
+			Debug.Log ("Nail polish costs $1");
+			break;
+		case 2:
+			Debug.Log ("Headbands cost $5");
+			break;
+		case 3:
+			Debug.Log ("Dresses cost $20");
+			break;
+		case 4:
+			Debug.Log ("Shoes cost $35");
+			break;
+		}
+				
+					
+		//Displaying a chosen activity
+		int activity = 3;
+		switch (activity) {
+		case 1:
+			Debug.Log ("Go dancing");
+			break;
+		case 2:
+			Debug.Log ("Watch tv");
+			break;
+		case 3:
+			Debug.Log ("Eat a snack");
+			break;
+		case 4:
+			Debug.Log ("Go swimming");
+			break;
+		}
+
+						
+		// Displaying a day of the week
+		int day = 4;
+		switch (day) {
+		case 1:
+			Debug.Log ("Monday");
+			break;
+		case 2:
+			Debug.Log ("Tuesday");
+			break;
+		case 3:
+			Debug.Log ("Wednesday");
+			break;
+		case 4:
+			Debug.Log ("Thursday");
+			break;
+	}
+}
+}
